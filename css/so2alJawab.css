@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    background-image: url(wp2737387-cool-gamer-wallpaper.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container h1 {
+    color: rgb(0, 255, 0);
+    margin-bottom: 20px;
+    font-size: 3rem
+}
+
+.container h3 {
+    color: rgb(229, 255, 0);
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 20px 0;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border: 3px solid rgb(0, 255, 0);
+    background-color: transparent;
+    font-size: 1.3rem; 
+    color: white;
+    cursor: pointer;
+}
+
+.gameContent {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    text-align: center;
+    color: white;
+}
+
+.gameContent h3 {
+    margin-top: 20px;
+}
